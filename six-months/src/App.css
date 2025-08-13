@@ -1,0 +1,42 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #eceda4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(92, 82, 82);
+}
+
+.Vancouver {
+  background-image: url(./background-pictures/vancouverSkyline.jpg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 50%
+}
+
+.vancouverOne {
+  margin-left:10%; 
+}
+
+.vancouverTwo {
+  margin-left:40%; 
+}
+
+.vancouverThree {
+  margin-left:70%; 
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
