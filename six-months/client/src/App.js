@@ -21,7 +21,7 @@ function App() {
           <Typography id="welcome-dialog-description" variant="body1" style={{ fontFamily: 'Comic Sans', color: '#333' }}>
             Happy six months my love, these past few months have been the best months ever. Getting to wake up everyday and spend time with you, to be able to talk to you and laugh with you.
             Thank you for letting me show you how much I love you and cherish you. I am so incredibly lucky to have made so many memories with you. 
-            I hope you like this little scrapbook I made you filled with my favourite memories that we have made on our trips together. Here is to many more memories and months together baby!!!
+            I hope you like this little scrapbook I made you filled with my favourite memories that we have made on our trips together. Here is to many more memories and months together baby!!!!
           </Typography>
         </DialogContent>
         <DialogActions> <Button onClick={handleClosePopup} variant="contained" color="primary" style={{ borderRadius: 20, textTransform: 'none', backgroundColor: '#e9c3cfff' }}> I LOVE YOU BABY ❤️! </Button> </DialogActions>
