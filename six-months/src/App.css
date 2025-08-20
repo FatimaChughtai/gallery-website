@@ -21,7 +21,7 @@ h2 {
   color: rgba(2, 2, 2, 0);
   margin-bottom: 3%;
   margin-left: 5%;
-  font-size: 100px;
+  font-size: 120px;
   background-repeat: no-repeat;
 }
 
@@ -30,18 +30,21 @@ h2 {
 }
 
 #tarryheader {
-
+  background-image: url(./background-pictures/NycTarrytown.png);
 }
 
 #montrealheader {
+  background-image: url(./background-pictures/Montreal.png);
 
 }
 
 #ottawaheader {
+  background-image: url(./background-pictures/Ottawa.png);
 
 }
 
 #nycheader {
+  background-image: url(./background-pictures/NYC.png);
 
 }
 
