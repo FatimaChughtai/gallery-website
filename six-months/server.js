@@ -6,11 +6,11 @@ const app = express();
 app.use(cors());
 
 
-const directoryPathVancouver = path.join(__dirname, 'client/public/trip-pictures/vancouver');
-const directoryPathOttawa = path.join(__dirname, 'client/public/trip-pictures/ottawa');
-const directoryPathMontreal = path.join(__dirname, 'client/public/trip-pictures/montreal');
-const directoryPathDowntownNYC = path.join(__dirname, 'client/public/trip-pictures/NYC-Downtown');
-const directoryPathTarrytownNYC = path.join(__dirname, 'client/public/trip-pictures/NYC-Tarrytown');
+const directoryPathVancouver = path.join(__dirname, 'public/trip-pictures/vancouver');
+const directoryPathOttawa = path.join(__dirname, 'public/trip-pictures/ottawa');
+const directoryPathMontreal = path.join(__dirname, 'public/trip-pictures/montreal');
+const directoryPathDowntownNYC = path.join(__dirname, 'public/trip-pictures/NYC-Downtown');
+const directoryPathTarrytownNYC = path.join(__dirname, 'public/trip-pictures/NYC-Tarrytown');
 
 
 app.get('/api/images/vancouver', (req, res) => {
@@ -58,11 +58,11 @@ app.get('/api/images/tarrytownNYC', (req, res) => {
   });
 });
 
-app.use('/trip-images/vancouver', express.static(path.join(__dirname, 'client/public/trip-pictures/vancouver')));
-app.use('/trip-images/ottawa', express.static(path.join(__dirname, 'client/public/trip-pictures/ottawa')));
-app.use('/trip-images/montreal', express.static(path.join(__dirname, 'client/public/trip-pictures/montreal')));
-app.use('/trip-images/downtownNYC', express.static(path.join(__dirname, 'client/public/trip-pictures/NYC-Downtown')));
-app.use('/trip-images/tarrytownNYC', express.static(path.join(__dirname, 'client/public/trip-pictures/NYC-Tarrytown')));
+app.use('/trip-images/vancouver', express.static(path.join(__dirname, 'public/trip-pictures/vancouver')));
+app.use('/trip-images/ottawa', express.static(path.join(__dirname, 'public/trip-pictures/ottawa')));
+app.use('/trip-images/montreal', express.static(path.join(__dirname, 'public/trip-pictures/montreal')));
+app.use('/trip-images/downtownNYC', express.static(path.join(__dirname, 'public/trip-pictures/NYC-Downtown')));
+app.use('/trip-images/tarrytownNYC', express.static(path.join(__dirname, 'public/trip-pictures/NYC-Tarrytown')));
 
 // ---------- ADD THIS PART FOR REACT FRONTEND ----------
 const clientBuildPath = path.join(__dirname, 'client/build');
