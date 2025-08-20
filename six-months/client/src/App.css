@@ -1,0 +1,64 @@
+.App-header {
+  background-color: #eceda4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(92, 82, 82);
+}
+
+.App {
+  background-image: url(./background-pictures/vancouverSkyline.jpg);
+}
+
+.tripSection {
+  background-size: 100%;
+  background-position: 50%;
+}
+
+h2 {
+  color: rgba(2, 2, 2, 0);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  font-size: 120px;
+  background-repeat: no-repeat;
+}
+
+#vancouverheader {
+  background-image: url(./background-pictures/vancouver.png);
+}
+
+#tarryheader {
+  background-image: url(./background-pictures/NycTarrytown.png);
+}
+
+#montrealheader {
+  background-image: url(./background-pictures/Montreal.png);
+
+}
+
+#ottawaheader {
+  background-image: url(./background-pictures/Ottawa.png);
+
+}
+
+#nycheader {
+  background-image: url(./background-pictures/NYC.png);
+
+}
+
+.pictureOne {
+  margin-left:25%;
+  margin-bottom: 10%;
+}
+
+.pictureTwo {
+  margin-left:60%;
+  margin-bottom: 10%;
+}
+
+.pictureThree {
+  margin-left:90%;
+  margin-bottom: 10%;
+}
